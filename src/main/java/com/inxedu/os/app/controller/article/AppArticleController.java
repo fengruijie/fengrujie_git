@@ -23,7 +23,7 @@ import java.util.Map;
 @RequestMapping("/webapp")
 public class AppArticleController extends BaseController {
 	private static Logger logger = Logger.getLogger(AppArticleController.class);
-
+	//这是注释么？
 	@Autowired
 	private ArticleService articleService;
 
