@@ -18,13 +18,12 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-//这是注释
+
+
 @Controller
 @RequestMapping("/webapp")
 public class AppArticleController extends BaseController {
 	private static Logger logger = Logger.getLogger(AppArticleController.class);
-
-	//这是注释
 
 	@Autowired
 	private ArticleService articleService;
